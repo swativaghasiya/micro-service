@@ -1,0 +1,57 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*.local
+.env.local
+*.env
+
+# Build outputs
+dist/
+build/
+.cache/
+.next/
+out/
+
+# Logs
+logs
+*.log
+*.log.*
+/pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+*.lcov
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+
+# Mongo / Elastic local data (don’t check these in!)
+data/
+dump/
+
+# Frontend
+.next/
+*.next
+
+# Lock files (optional, if you want reproducible builds keep them)
+/package-lock.json
+/yarn.lock
+/pnpm-lock.yaml
+
+# Other
+*.tgz
