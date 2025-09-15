@@ -30,7 +30,7 @@ micro-platform/
 ├── product-service/ # Mongo + cache + indexing
 ├── search-service/ # Elasticsearch-backed search (or mock mode)
 ├── gateway/ # API Gateway with http-proxy-middleware
-└── next-frontend/ # Next.js App frontend
+└── frontend/ # Next.js App frontend
 
 🛠️ Requirements
 
@@ -69,7 +69,7 @@ cd micro-platform
    npm install
 
 4. Frontend (Next.js)
-   cd ../next-frontend
+   cd ../frontend
    npm install
 
 Now visit 👉 http://localhost:3000
